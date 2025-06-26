@@ -20,6 +20,6 @@ int main() {
   scanf("%d %d", &a, &b);
 
   int result = mult(a, b);
-  printf("Ausgabe: %d\n", result);
+  printf("Ausgabe: %d * %d = %d\n", a, b, result);
   return 0;
 }
